@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "id": "1683022028739158016",
+      "train_id": "3",
+      "carriage_number": "02",
+      "seat_number": "03A",
+      "seat_type": "0",
+      "start_station": "德州",
+      "end_station": "南京",
+      "price": "15700",
+      "seat_status": "1",
+      "create_time": "2023-07-23 15:51:34",
+      "update_time": "2023-07-23 15:51:34",
+      "del_flag": "0"
+    }
+  ],
+  "database": "12306",
+  "es": 1693904766000,
+  "id": 3,
+  "isDdl": false,
+  "mysqlType": {
+    "id": "bigint unsigned",
+    "train_id": "bigint",
+    "carriage_number": "varchar(64)",
+    "seat_number": "varchar(64)",
+    "seat_type": "int",
+    "start_station": "varchar(256)",
+    "end_station": "varchar(256)",
+    "price": "int",
+    "seat_status": "int",
+    "create_time": "datetime",
+    "update_time": "datetime",
+    "del_flag": "tinyint(1)"
+  },
+  "old": [
+    {
+      "seat_status": "0"
+    }
+  ],
+  "pkNames": [
+    "id"
+  ],
+  "sql": "",
+  "sqlType": {
+    "id": -5,
+    "train_id": -5,
+    "carriage_number": 12,
+    "seat_number": 12,
+    "seat_type": 4,
+    "start_station": 12,
+    "end_station": 12,
+    "price": 4,
+    "seat_status": 4,
+    "create_time": 93,
+    "update_time": 93,
+    "del_flag": -6
+  },
+  "table": "t_seat",
+  "ts": 1693904766385,
+  "type": "UPDATE"
+}
